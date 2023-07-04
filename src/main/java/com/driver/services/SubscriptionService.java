@@ -43,7 +43,7 @@ public class SubscriptionService {
         }
         else
         {
-            amount = 100+(350*subscriptionEntryDto.getNoOfScreensRequired());
+            amount = 1000+(350*subscriptionEntryDto.getNoOfScreensRequired());
         }
         return amount;
     }
