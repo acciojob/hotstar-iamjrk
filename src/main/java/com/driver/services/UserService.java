@@ -47,20 +47,20 @@ public class UserService {
         {
             for (WebSeries webSeries:webSeriesList)
             {
-//                if (webSeries.getSubscriptionType().toString().equals("BASIC") && webSeries.getAgeLimit()>=user.getAge())
-//                {
+                if (webSeries.getSubscriptionType().toString().equals("BASIC") )//&& webSeries.getAgeLimit()>=user.getAge())
+                {
                     count++;
-                //}
+                }
             }
         }
         else if(subscriptionType.toString().equals("PRO"))
         {
             for (WebSeries webSeries:webSeriesList)
             {
-//                if ((webSeries.getSubscriptionType().toString().equals("PRO") || webSeries.getSubscriptionType().toString().equals("BASIC") )&& webSeries.getAgeLimit()>=user.getAge())
-//                {
+                if ((webSeries.getSubscriptionType().toString().equals("PRO") || webSeries.getSubscriptionType().toString().equals("BASIC") ))//&& webSeries.getAgeLimit()>=user.getAge())
+                {
                     count++;
-                //}
+                }
             }
         }
         else //ELITE CASE
