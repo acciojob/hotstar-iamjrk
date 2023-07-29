@@ -18,6 +18,7 @@ public class Subscription {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+
     private SubscriptionType subscriptionType;
 
     private int noOfScreensSubscribed;
